@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+//viewcontrollers
+#import "PEAFromViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self initRootViewController];
     return YES;
+}
+
+- (void)initRootViewController {
+    PEAFromViewController *peafromVC = [[PEAFromViewController alloc] init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:peafromVC];
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
