@@ -20,8 +20,6 @@
 		B41474251D73DE9D00E64D07 /* PopPEAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = B41474241D73DE9D00E64D07 /* PopPEAnimation.m */; };
 		B41474281D740FBB00E64D07 /* PEAFromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41474271D740FBB00E64D07 /* PEAFromViewController.m */; };
 		B414742B1D740FCF00E64D07 /* PEAToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B414742A1D740FCF00E64D07 /* PEAToViewController.m */; };
-		B414742F1D7435B300E64D07 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B414742E1D7435B300E64D07 /* FirstViewController.m */; };
-		B41474321D7435C000E64D07 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41474311D7435C000E64D07 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,10 +66,6 @@
 		B41474271D740FBB00E64D07 /* PEAFromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEAFromViewController.m; sourceTree = "<group>"; };
 		B41474291D740FCF00E64D07 /* PEAToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PEAToViewController.h; sourceTree = "<group>"; };
 		B414742A1D740FCF00E64D07 /* PEAToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PEAToViewController.m; sourceTree = "<group>"; };
-		B414742D1D7435B300E64D07 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B414742E1D7435B300E64D07 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B41474301D7435C000E64D07 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		B41474311D7435C000E64D07 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +116,6 @@
 		B41473E21D73D4C400E64D07 /* GWLAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B414742C1D74358800E64D07 /* PushPopAnimation */,
 				B41474161D73D88500E64D07 /* PictureEnlargeAnimation */,
 				B41473E61D73D4C400E64D07 /* AppDelegate.h */,
 				B41473E71D73D4C400E64D07 /* AppDelegate.m */,
@@ -178,17 +171,6 @@
 				B414742A1D740FCF00E64D07 /* PEAToViewController.m */,
 			);
 			path = PictureEnlargeAnimation;
-			sourceTree = "<group>";
-		};
-		B414742C1D74358800E64D07 /* PushPopAnimation */ = {
-			isa = PBXGroup;
-			children = (
-				B414742D1D7435B300E64D07 /* FirstViewController.h */,
-				B414742E1D7435B300E64D07 /* FirstViewController.m */,
-				B41474301D7435C000E64D07 /* SecondViewController.h */,
-				B41474311D7435C000E64D07 /* SecondViewController.m */,
-			);
-			path = PushPopAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,9 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41474321D7435C000E64D07 /* SecondViewController.m in Sources */,
 				B414742B1D740FCF00E64D07 /* PEAToViewController.m in Sources */,
-				B414742F1D7435B300E64D07 /* FirstViewController.m in Sources */,
 				B41473EB1D73D4C400E64D07 /* ViewController.m in Sources */,
 				B41474251D73DE9D00E64D07 /* PopPEAnimation.m in Sources */,
 				B41474281D740FBB00E64D07 /* PEAFromViewController.m in Sources */,
@@ -554,6 +534,7 @@
 				B414740F1D73D4C400E64D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B41474101D73D4C400E64D07 /* Build configuration list for PBXNativeTarget "GWLAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +543,7 @@
 				B41474121D73D4C400E64D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B41474131D73D4C400E64D07 /* Build configuration list for PBXNativeTarget "GWLAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +552,7 @@
 				B41474151D73D4C400E64D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
